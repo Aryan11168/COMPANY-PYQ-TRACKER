@@ -1,0 +1,5174 @@
+{
+  "companies": [
+    {
+      "name": "AMD",
+      "folder": "AMD",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "AQR Capital Management",
+      "folder": "AQR Capital Management",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Accenture",
+      "folder": "Accenture",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Accolite",
+      "folder": "Accolite",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Acko",
+      "folder": "Acko",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Activision",
+      "folder": "Activision",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Adobe",
+      "folder": "Adobe",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Affirm",
+      "folder": "Affirm",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Agoda",
+      "folder": "Agoda",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Airbnb",
+      "folder": "Airbnb",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Airbus SE",
+      "folder": "Airbus SE",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Airtel",
+      "folder": "Airtel",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Airwallex",
+      "folder": "Airwallex",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Akamai",
+      "folder": "Akamai",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Akuna Capital",
+      "folder": "Akuna Capital",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Alibaba",
+      "folder": "Alibaba",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Altimetrik",
+      "folder": "Altimetrik",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Amadeus",
+      "folder": "Amadeus",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Amazon",
+      "folder": "Amazon",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Amdocs",
+      "folder": "Amdocs",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "American Express",
+      "folder": "American Express",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Analytics quotient",
+      "folder": "Analytics quotient",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Anduril",
+      "folder": "Anduril",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Aon",
+      "folder": "Aon",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Apollo.io",
+      "folder": "Apollo.io",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "AppDynamics",
+      "folder": "AppDynamics",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "AppFolio",
+      "folder": "AppFolio",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Apple",
+      "folder": "Apple",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Applied Intuition",
+      "folder": "Applied Intuition",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Arcesium",
+      "folder": "Arcesium",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Arista Networks",
+      "folder": "Arista Networks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Asana",
+      "folder": "Asana",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Atlassian",
+      "folder": "Atlassian",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Attentive",
+      "folder": "Attentive",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Audible",
+      "folder": "Audible",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Aurora",
+      "folder": "Aurora",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Autodesk",
+      "folder": "Autodesk",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Avalara",
+      "folder": "Avalara",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Avito",
+      "folder": "Avito",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Axon",
+      "folder": "Axon",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "BILL Holdings",
+      "folder": "BILL Holdings",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "BNY Mellon",
+      "folder": "BNY Mellon",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "BP",
+      "folder": "BP",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Baidu",
+      "folder": "Baidu",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Bank of America",
+      "folder": "Bank of America",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Barclays",
+      "folder": "Barclays",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Bentley Systems",
+      "folder": "Bentley Systems",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "BharatPe",
+      "folder": "BharatPe",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "BitGo",
+      "folder": "BitGo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "BlackRock",
+      "folder": "BlackRock",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "BlackStone",
+      "folder": "BlackStone",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Blizzard",
+      "folder": "Blizzard",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Block",
+      "folder": "Block",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Bloomberg",
+      "folder": "Bloomberg",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Bolt",
+      "folder": "Bolt",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Booking.com",
+      "folder": "Booking.com",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Bosch",
+      "folder": "Bosch",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Box",
+      "folder": "Box",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Braze",
+      "folder": "Braze",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Brex",
+      "folder": "Brex",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Bridgewater Associates",
+      "folder": "Bridgewater Associates",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ByteDance",
+      "folder": "ByteDance",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CARS24",
+      "folder": "CARS24",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CEDCOSS",
+      "folder": "CEDCOSS",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CME Group",
+      "folder": "CME Group",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CRED",
+      "folder": "CRED",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CTC",
+      "folder": "CTC",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CVENT",
+      "folder": "CVENT",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cadence",
+      "folder": "Cadence",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Canonical",
+      "folder": "Canonical",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Capgemini",
+      "folder": "Capgemini",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Capital One",
+      "folder": "Capital One",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Careem",
+      "folder": "Careem",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cashfree",
+      "folder": "Cashfree",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Celigo",
+      "folder": "Celigo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Chewy",
+      "folder": "Chewy",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Chime",
+      "folder": "Chime",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Circle",
+      "folder": "Circle",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cisco",
+      "folder": "Cisco",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Citadel",
+      "folder": "Citadel",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Citigroup",
+      "folder": "Citigroup",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Citrix",
+      "folder": "Citrix",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Clari",
+      "folder": "Clari",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cleartrip",
+      "folder": "Cleartrip",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cloudera",
+      "folder": "Cloudera",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cloudflare",
+      "folder": "Cloudflare",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Coforge",
+      "folder": "Coforge",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cognizant",
+      "folder": "Cognizant",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cohesity",
+      "folder": "Cohesity",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Coinbase",
+      "folder": "Coinbase",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Comcast",
+      "folder": "Comcast",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Commvault",
+      "folder": "Commvault",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Compass",
+      "folder": "Compass",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Confluent",
+      "folder": "Confluent",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ConsultAdd",
+      "folder": "ConsultAdd",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Coupang",
+      "folder": "Coupang",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Coursera",
+      "folder": "Coursera",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Coveo",
+      "folder": "Coveo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Credit Karma",
+      "folder": "Credit Karma",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Criteo",
+      "folder": "Criteo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CrowdStrike",
+      "folder": "CrowdStrike",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Cruise",
+      "folder": "Cruise",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "CureFit",
+      "folder": "CureFit",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "DE Shaw",
+      "folder": "DE Shaw",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "DP world",
+      "folder": "DP world",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "DRW",
+      "folder": "DRW",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "DXC Technology",
+      "folder": "DXC Technology",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Darwinbox",
+      "folder": "Darwinbox",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Databricks",
+      "folder": "Databricks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Datadog",
+      "folder": "Datadog",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Dataminr",
+      "folder": "Dataminr",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Delhivery",
+      "folder": "Delhivery",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Deliveroo",
+      "folder": "Deliveroo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Dell",
+      "folder": "Dell",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Deloitte",
+      "folder": "Deloitte",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "DeltaX",
+      "folder": "DeltaX",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Deutsche Bank",
+      "folder": "Deutsche Bank",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "DevRev",
+      "folder": "DevRev",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Devsinc",
+      "folder": "Devsinc",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Devtron",
+      "folder": "Devtron",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Directi",
+      "folder": "Directi",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Disney",
+      "folder": "Disney",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Docusign",
+      "folder": "Docusign",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "DoorDash",
+      "folder": "DoorDash",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Dream11",
+      "folder": "Dream11",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Dropbox",
+      "folder": "Dropbox",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Druva",
+      "folder": "Druva",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Dunzo",
+      "folder": "Dunzo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Duolingo",
+      "folder": "Duolingo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "EPAM Systems",
+      "folder": "EPAM Systems",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "EY",
+      "folder": "EY",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "EarnIn",
+      "folder": "EarnIn",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Edelweiss Group",
+      "folder": "Edelweiss Group",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Electronic Arts",
+      "folder": "Electronic Arts",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Epic Systems",
+      "folder": "Epic Systems",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Expedia",
+      "folder": "Expedia",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "FPT",
+      "folder": "FPT",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "FactSet",
+      "folder": "FactSet",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Faire",
+      "folder": "Faire",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Fastenal",
+      "folder": "Fastenal",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Fidelity",
+      "folder": "Fidelity",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Fiverr",
+      "folder": "Fiverr",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Flexera",
+      "folder": "Flexera",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Flexport",
+      "folder": "Flexport",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Flipkart",
+      "folder": "Flipkart",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Fortinet",
+      "folder": "Fortinet",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Freecharge",
+      "folder": "Freecharge",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "FreshWorks",
+      "folder": "FreshWorks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "GE Digital",
+      "folder": "GE Digital",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "GE Healthcare",
+      "folder": "GE Healthcare",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "GSA Capital",
+      "folder": "GSA Capital",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "GSN Games",
+      "folder": "GSN Games",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Gameskraft",
+      "folder": "Gameskraft",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Garmin",
+      "folder": "Garmin",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Geico",
+      "folder": "Geico",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "General Motors",
+      "folder": "General Motors",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Genpact",
+      "folder": "Genpact",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "GoDaddy",
+      "folder": "GoDaddy",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Gojek",
+      "folder": "Gojek",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Goldman Sachs",
+      "folder": "Goldman Sachs",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Google",
+      "folder": "Google",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Grab",
+      "folder": "Grab",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Grammarly",
+      "folder": "Grammarly",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Graviton",
+      "folder": "Graviton",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Groupon",
+      "folder": "Groupon",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Groww",
+      "folder": "Groww",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Grubhub",
+      "folder": "Grubhub",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Guidewire",
+      "folder": "Guidewire",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Gusto",
+      "folder": "Gusto",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "HCL",
+      "folder": "HCL",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "HP",
+      "folder": "HP",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "HPE",
+      "folder": "HPE",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "HSBC",
+      "folder": "HSBC",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Harness",
+      "folder": "Harness",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "HashedIn",
+      "folder": "HashedIn",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Hertz",
+      "folder": "Hertz",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "HiLabs",
+      "folder": "HiLabs",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Highspot",
+      "folder": "Highspot",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Hive",
+      "folder": "Hive",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Hiver",
+      "folder": "Hiver",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Honeywell",
+      "folder": "Honeywell",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Hotstar",
+      "folder": "Hotstar",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Houzz",
+      "folder": "Houzz",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Huawei",
+      "folder": "Huawei",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Hubspot",
+      "folder": "Hubspot",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Hudson River Trading",
+      "folder": "Hudson River Trading",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Hulu",
+      "folder": "Hulu",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "IBM",
+      "folder": "IBM",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "IIT Bombay",
+      "folder": "IIT Bombay",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "IMC",
+      "folder": "IMC",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "INDmoney",
+      "folder": "INDmoney",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "IVP",
+      "folder": "IVP",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "IXL",
+      "folder": "IXL",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "InMobi",
+      "folder": "InMobi",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Indeed",
+      "folder": "Indeed",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Info Edge",
+      "folder": "Info Edge",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Informatica",
+      "folder": "Informatica",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Infosys",
+      "folder": "Infosys",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Instacart",
+      "folder": "Instacart",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Intel",
+      "folder": "Intel",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Intuit",
+      "folder": "Intuit",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "J.P. Morgan",
+      "folder": "J.P. Morgan",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Jane Street",
+      "folder": "Jane Street",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Jump Trading",
+      "folder": "Jump Trading",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Juniper Networks",
+      "folder": "Juniper Networks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Juspay",
+      "folder": "Juspay",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "KLA",
+      "folder": "KLA",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Kakao",
+      "folder": "Kakao",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Karat",
+      "folder": "Karat",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Komprise",
+      "folder": "Komprise",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "LINE",
+      "folder": "LINE",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "LTI",
+      "folder": "LTI",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Larsen & Toubro",
+      "folder": "Larsen & Toubro",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Lendingkart Technologies",
+      "folder": "Lendingkart Technologies",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Lenskart",
+      "folder": "Lenskart",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Licious",
+      "folder": "Licious",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Liftoff",
+      "folder": "Liftoff",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "LinkedIn",
+      "folder": "LinkedIn",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "LiveRamp",
+      "folder": "LiveRamp",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Lowe's",
+      "folder": "Lowe's",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Lucid",
+      "folder": "Lucid",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Luxoft",
+      "folder": "Luxoft",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Lyft",
+      "folder": "Lyft",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "MAQ Software",
+      "folder": "MAQ Software",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "MSCI",
+      "folder": "MSCI",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Machine Zone",
+      "folder": "Machine Zone",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "MakeMyTrip",
+      "folder": "MakeMyTrip",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mapbox",
+      "folder": "Mapbox",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mastercard",
+      "folder": "Mastercard",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "MathWorks",
+      "folder": "MathWorks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "McKinsey",
+      "folder": "McKinsey",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Media.net",
+      "folder": "Media.net",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Meesho",
+      "folder": "Meesho",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mercari",
+      "folder": "Mercari",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Meta",
+      "folder": "Meta",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Microsoft",
+      "folder": "Microsoft",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Microstrategy",
+      "folder": "Microstrategy",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Millennium",
+      "folder": "Millennium",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "MindTree",
+      "folder": "MindTree",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mindtickle",
+      "folder": "Mindtickle",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Miro",
+      "folder": "Miro",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mitsogo",
+      "folder": "Mitsogo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mixpanel",
+      "folder": "Mixpanel",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mobileye",
+      "folder": "Mobileye",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Moengage",
+      "folder": "Moengage",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Moloco",
+      "folder": "Moloco",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "MongoDB",
+      "folder": "MongoDB",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Morgan Stanley",
+      "folder": "Morgan Stanley",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Mountblue",
+      "folder": "Mountblue",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Moveworks",
+      "folder": "Moveworks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Myntra",
+      "folder": "Myntra",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "NCR",
+      "folder": "NCR",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nagarro",
+      "folder": "Nagarro",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "National Instruments",
+      "folder": "National Instruments",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "National Payments Corporation of India",
+      "folder": "National Payments Corporation of India",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Navan",
+      "folder": "Navan",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Navi",
+      "folder": "Navi",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "NetApp",
+      "folder": "NetApp",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "NetEase",
+      "folder": "NetEase",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Netflix",
+      "folder": "Netflix",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Netskope",
+      "folder": "Netskope",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Netsuite",
+      "folder": "Netsuite",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nextdoor",
+      "folder": "Nextdoor",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Niantic",
+      "folder": "Niantic",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nielsen",
+      "folder": "Nielsen",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nike",
+      "folder": "Nike",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "NinjaCart",
+      "folder": "NinjaCart",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nokia",
+      "folder": "Nokia",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nordstrom",
+      "folder": "Nordstrom",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Notion",
+      "folder": "Notion",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nuro",
+      "folder": "Nuro",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nutanix",
+      "folder": "Nutanix",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nvidia",
+      "folder": "Nvidia",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Nykaa",
+      "folder": "Nykaa",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "OKX",
+      "folder": "OKX",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Odoo",
+      "folder": "Odoo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Okta",
+      "folder": "Okta",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Ola Cabs",
+      "folder": "Ola Cabs",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "OpenAI",
+      "folder": "OpenAI",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Opendoor",
+      "folder": "Opendoor",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Optiver",
+      "folder": "Optiver",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Optum",
+      "folder": "Optum",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Oracle",
+      "folder": "Oracle",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Otter.ai",
+      "folder": "Otter.ai",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Ozon",
+      "folder": "Ozon",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Palantir Technologies",
+      "folder": "Palantir Technologies",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Palo Alto Networks",
+      "folder": "Palo Alto Networks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Patreon",
+      "folder": "Patreon",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "PayPal",
+      "folder": "PayPal",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "PayPay",
+      "folder": "PayPay",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "PayU",
+      "folder": "PayU",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Paycom",
+      "folder": "Paycom",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Paytm",
+      "folder": "Paytm",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Peloton",
+      "folder": "Peloton",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "PhonePe",
+      "folder": "PhonePe",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Pinterest",
+      "folder": "Pinterest",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Pocket Gems",
+      "folder": "Pocket Gems",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Point72",
+      "folder": "Point72",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Pony.ai",
+      "folder": "Pony.ai",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "PornHub",
+      "folder": "PornHub",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Poshmark",
+      "folder": "Poshmark",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Postmates",
+      "folder": "Postmates",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "PubMatic",
+      "folder": "PubMatic",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Publicis Sapient",
+      "folder": "Publicis Sapient",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Pure Storage",
+      "folder": "Pure Storage",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Pwc",
+      "folder": "Pwc",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "QBurst",
+      "folder": "QBurst",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Qualcomm",
+      "folder": "Qualcomm",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Qualtrics",
+      "folder": "Qualtrics",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Quora",
+      "folder": "Quora",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "RBC",
+      "folder": "RBC",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Rakuten",
+      "folder": "Rakuten",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Reddit",
+      "folder": "Reddit",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Remitly",
+      "folder": "Remitly",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Revolut",
+      "folder": "Revolut",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Riot Games",
+      "folder": "Riot Games",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Ripple",
+      "folder": "Ripple",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Rippling",
+      "folder": "Rippling",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Rivian",
+      "folder": "Rivian",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Robinhood",
+      "folder": "Robinhood",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Roblox",
+      "folder": "Roblox",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Roche",
+      "folder": "Roche",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Rokt",
+      "folder": "Rokt",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Roku",
+      "folder": "Roku",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Rubrik",
+      "folder": "Rubrik",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "SAP",
+      "folder": "SAP",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "SIG",
+      "folder": "SIG",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "SOTI",
+      "folder": "SOTI",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Salesforce",
+      "folder": "Salesforce",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Samsara",
+      "folder": "Samsara",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Samsung",
+      "folder": "Samsung",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Scale AI",
+      "folder": "Scale AI",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Sentry",
+      "folder": "Sentry",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ServiceNow",
+      "folder": "ServiceNow",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ShareChat",
+      "folder": "ShareChat",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Shopee",
+      "folder": "Shopee",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Shopify",
+      "folder": "Shopify",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Siemens",
+      "folder": "Siemens",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Sigmoid",
+      "folder": "Sigmoid",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Slice",
+      "folder": "Slice",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Smartsheet",
+      "folder": "Smartsheet",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Snap",
+      "folder": "Snap",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Snapdeal",
+      "folder": "Snapdeal",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Snowflake",
+      "folder": "Snowflake",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "SoFi",
+      "folder": "SoFi",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Societe Generale",
+      "folder": "Societe Generale",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Softwire",
+      "folder": "Softwire",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Sony",
+      "folder": "Sony",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "SoundHound",
+      "folder": "SoundHound",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Splunk",
+      "folder": "Splunk",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Spotify",
+      "folder": "Spotify",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Sprinklr",
+      "folder": "Sprinklr",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Squarepoint Capital",
+      "folder": "Squarepoint Capital",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Squarespace",
+      "folder": "Squarespace",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "StackAdapt",
+      "folder": "StackAdapt",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Stackline",
+      "folder": "Stackline",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Stripe",
+      "folder": "Stripe",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Sumo Logic",
+      "folder": "Sumo Logic",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Swiggy",
+      "folder": "Swiggy",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Synopsys",
+      "folder": "Synopsys",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tanium",
+      "folder": "Tanium",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Target",
+      "folder": "Target",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tech Mahindra",
+      "folder": "Tech Mahindra",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tejas Networks",
+      "folder": "Tejas Networks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tekion",
+      "folder": "Tekion",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tencent",
+      "folder": "Tencent",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Teradata",
+      "folder": "Teradata",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tesco",
+      "folder": "Tesco",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tesla",
+      "folder": "Tesla",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Texas Instruments",
+      "folder": "Texas Instruments",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "The Trade Desk",
+      "folder": "The Trade Desk",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Thomson Reuters",
+      "folder": "Thomson Reuters",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ThoughtWorks",
+      "folder": "ThoughtWorks",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ThousandEyes",
+      "folder": "ThousandEyes",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tiger Analytics",
+      "folder": "Tiger Analytics",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "TikTok",
+      "folder": "TikTok",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tinder",
+      "folder": "Tinder",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tinkoff",
+      "folder": "Tinkoff",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Toast",
+      "folder": "Toast",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Toptal",
+      "folder": "Toptal",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tower Research Capital",
+      "folder": "Tower Research Capital",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Trexquant",
+      "folder": "Trexquant",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Trilogy",
+      "folder": "Trilogy",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Tripadvisor",
+      "folder": "Tripadvisor",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "TuSimple",
+      "folder": "TuSimple",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Turing",
+      "folder": "Turing",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Turo",
+      "folder": "Turo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Turvo",
+      "folder": "Turvo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Twilio",
+      "folder": "Twilio",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Twitch",
+      "folder": "Twitch",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Two Sigma",
+      "folder": "Two Sigma",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "UBS",
+      "folder": "UBS",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "UKG",
+      "folder": "UKG",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "USAA",
+      "folder": "USAA",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Uber",
+      "folder": "Uber",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "UiPath",
+      "folder": "UiPath",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Unity",
+      "folder": "Unity",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Upstart",
+      "folder": "Upstart",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Urban Company",
+      "folder": "Urban Company",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "VK",
+      "folder": "VK",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "VMware",
+      "folder": "VMware",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Valve",
+      "folder": "Valve",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Vanguard",
+      "folder": "Vanguard",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Veeva Systems",
+      "folder": "Veeva Systems",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Verily",
+      "folder": "Verily",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Veritas",
+      "folder": "Veritas",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Verkada",
+      "folder": "Verkada",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Vimeo",
+      "folder": "Vimeo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Virtu Financial",
+      "folder": "Virtu Financial",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Virtusa",
+      "folder": "Virtusa",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Visa",
+      "folder": "Visa",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Walmart Labs",
+      "folder": "Walmart Labs",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Warnermedia",
+      "folder": "Warnermedia",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "WatchGuard",
+      "folder": "WatchGuard",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wayfair",
+      "folder": "Wayfair",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Waymo",
+      "folder": "Waymo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "WeRide",
+      "folder": "WeRide",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wealthfront",
+      "folder": "Wealthfront",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wells Fargo",
+      "folder": "Wells Fargo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Western Digital",
+      "folder": "Western Digital",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Whatnot",
+      "folder": "Whatnot",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "WinZO",
+      "folder": "WinZO",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wipro",
+      "folder": "Wipro",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wise",
+      "folder": "Wise",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wish",
+      "folder": "Wish",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wissen Technology",
+      "folder": "Wissen Technology",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Wix",
+      "folder": "Wix",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Workday",
+      "folder": "Workday",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Works Applications",
+      "folder": "Works Applications",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "WorldQuant",
+      "folder": "WorldQuant",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "X",
+      "folder": "X",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Yahoo",
+      "folder": "Yahoo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Yandex",
+      "folder": "Yandex",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Yelp",
+      "folder": "Yelp",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Yext",
+      "folder": "Yext",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ZS Associates",
+      "folder": "ZS Associates",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ZScaler",
+      "folder": "ZScaler",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zalando",
+      "folder": "Zalando",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zendesk",
+      "folder": "Zendesk",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zenefits",
+      "folder": "Zenefits",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zepto",
+      "folder": "Zepto",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zeta",
+      "folder": "Zeta",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zillow",
+      "folder": "Zillow",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ZipRecruiter",
+      "folder": "ZipRecruiter",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zluri",
+      "folder": "Zluri",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zoho",
+      "folder": "Zoho",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zomato",
+      "folder": "Zomato",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zoom",
+      "folder": "Zoom",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zoox",
+      "folder": "Zoox",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zopsmart",
+      "folder": "Zopsmart",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "Zynga",
+      "folder": "Zynga",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "athenahealth",
+      "folder": "athenahealth",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "blinkit",
+      "folder": "blinkit",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "carwale",
+      "folder": "carwale",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "ciena",
+      "folder": "ciena",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "eBay",
+      "folder": "eBay",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "fourkites",
+      "folder": "fourkites",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "instabase",
+      "folder": "instabase",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "jio",
+      "folder": "jio",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "josh technology",
+      "folder": "josh technology",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "opentext",
+      "folder": "opentext",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "oyo",
+      "folder": "oyo",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "peak6",
+      "folder": "peak6",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "persistent systems",
+      "folder": "persistent systems",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "razorpay",
+      "folder": "razorpay",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "redbus",
+      "folder": "redbus",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "smartnews",
+      "folder": "smartnews",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "tcs",
+      "folder": "tcs",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "thoughtspot",
+      "folder": "thoughtspot",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    },
+    {
+      "name": "zeta suite",
+      "folder": "zeta suite",
+      "files": {
+        "six_months": "3. Six Months.csv",
+        "more_than_six_months": "4. More Than Six Months.csv",
+        "all": "5. All.csv",
+        "thirty_days": "1. Thirty Days.csv",
+        "three_months": "2. Three Months.csv"
+      }
+    }
+  ]
+}
