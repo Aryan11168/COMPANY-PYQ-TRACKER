@@ -4,227 +4,258 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LeetCode Company-Wise Problem Tracker</title>
-  <meta name="description" content="A premium interactive dashboard to track and solve LeetCode questions by company categories. Features animated progress tracker, search, and completion persistence.">
-  <!-- Google Fonts: Inter -->
+  <meta name="description" content="A premium interactive dashboard to track and solve LeetCode questions by company. Features analytics, progress tracking, streaks, and cloud sync.">
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="dark-theme">
-  <div class="app-container">
-    <!-- Sidebar for Company Selection -->
-    <aside class="sidebar" id="sidebar">
-      <div class="sidebar-header">
-        <div class="logo">
-          <svg class="logo-icon" viewBox="0 0 24 24" width="24" height="24">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <h1>LC Tracker</h1>
-        </div>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
-          <!-- Moon Icon (Dark Mode default) -->
-          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="currentColor"/>
-          </svg>
-          <!-- Sun Icon (Hidden by default) -->
-          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20" style="display: none;">
-            <circle cx="12" cy="12" r="5" fill="currentColor"/>
-            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="2"/>
-          </svg>
-        </button>
+<div class="app-container">
+
+  <!-- ===================== SIDEBAR ===================== -->
+  <aside class="sidebar" id="sidebar">
+    <!-- Logo bar -->
+    <div class="sidebar-header">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" width="20" height="20">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+            fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">LC Tracker</span>
       </div>
-
-      <div class="search-box-container">
-        <input type="text" id="company-search" placeholder="Search 470+ companies..." autocomplete="off">
-        <span class="search-badge" id="company-count">0</span>
-      </div>
-
-      <nav class="company-list" id="company-list" aria-label="Companies list">
-        <!-- Dynamically populated company items -->
-        <div class="loading-state">Loading companies...</div>
-      </nav>
-
-      <!-- User Profile Panel -->
-      <div class="user-profile" id="user-profile" style="display: none;">
+      <!-- User pill -->
+      <div class="user-profile" id="user-profile" style="display:none;" title="Open settings">
         <div class="user-avatar">👤</div>
-        <div class="user-info-text">
-          <span class="user-name" id="profile-username">Guest</span>
-          <span class="user-role">Developer</span>
-        </div>
-        <button class="logout-btn" id="logout-btn" title="Log Out" aria-label="Log Out">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
-            <polyline points="16 17 21 12 16 7"></polyline>
-            <line x1="21" y1="12" x2="9" y2="12"></line>
-          </svg>
-        </button>
+        <span class="user-name" id="profile-username">User</span>
       </div>
-    </aside>
+    </div>
 
-    <!-- Main Dashboard Workspace -->
-    <main class="main-content">
-      <!-- Mobile Sidebar Toggle -->
-      <header class="mobile-header">
-        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
-          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </button>
-        <span class="mobile-title">LeetCode Tracker</span>
-      </header>
+    <!-- Company search -->
+    <div class="sidebar-search">
+      <svg class="search-icon-sidebar" viewBox="0 0 24 24" width="13" height="13"
+        fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="text" id="company-search" placeholder="Search companies…" autocomplete="off">
+      <span class="search-badge" id="company-count">0</span>
+    </div>
 
-      <!-- Dashboard Header -->
+    <!-- Section label -->
+    <div class="sidebar-section-label">COMPANIES</div>
+
+    <nav class="company-list" id="company-list" aria-label="Companies">
+      <div class="loading-state">Loading companies…</div>
+    </nav>
+  </aside>
+
+  <!-- ===================== MAIN ===================== -->
+  <main class="main-content">
+
+    <!-- Mobile header -->
+    <header class="mobile-header">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none">
+          <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+      <span class="mobile-title">LC Tracker</span>
+    </header>
+
+    <div class="content-scroll">
+
+      <!-- ── Hero Card ── -->
       <section class="dashboard-header card">
-        <div class="header-info">
+        <!-- Left: company name -->
+        <div class="header-left">
           <h2 id="active-company-name">Select a Company</h2>
-          <div class="timeframe-tabs" id="timeframe-tabs">
-            <!-- Dynamically populated timeframe tabs e.g., 30 Days, 3 Months -->
-          </div>
+          <p class="header-subtitle">Track your interview preparation progress</p>
         </div>
 
-        <div class="progress-container">
-          <div class="progress-details">
-            <span class="progress-label">Completion</span>
-            <span class="progress-numbers" id="progress-text">0 / 0 Solved</span>
+        <!-- Center: solved + ring -->
+        <div class="header-center">
+          <div class="hero-solved-block">
+            <span class="hero-solved-num" id="hero-solved-num">0</span>
+            <span class="hero-solved-sep">/ <span id="hero-total-num">0</span></span>
+            <span class="hero-solved-label">Solved</span>
           </div>
-          <!-- SVG Circular Progress Bar -->
           <div class="circular-progress">
-            <svg width="80" height="80" viewBox="0 0 80 80">
-              <circle class="progress-bg" cx="40" cy="40" r="34" />
-              <circle class="progress-bar" cx="40" cy="40" r="34" />
+            <svg width="76" height="76" viewBox="0 0 80 80">
+              <circle class="progress-bg" cx="40" cy="40" r="34"/>
+              <circle class="progress-bar" cx="40" cy="40" r="34"/>
             </svg>
             <div class="progress-percent" id="progress-percent">0%</div>
           </div>
         </div>
+
+        <!-- Right: mini stat list -->
+        <div class="header-right">
+          <div class="mini-stat">
+            <svg class="mini-stat-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13"><rect x="2" y="2" width="12" height="12" rx="2"/><path d="M5 8h6M8 5v6"/></svg>
+            <span class="mini-stat-label">REMAINING:</span>
+            <span class="mini-stat-value" id="stat-remaining-val">0</span>
+          </div>
+          <div class="mini-stat">
+            <svg class="mini-stat-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13"><circle cx="8" cy="8" r="6"/><path d="M8 5v3l2 2"/></svg>
+            <span class="mini-stat-label">COMPLETION RATE:</span>
+            <span class="mini-stat-value" id="stat-completion-val">0%</span>
+          </div>
+          <div class="mini-stat">
+            <svg class="mini-stat-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="13" height="13"><path d="M8 2l1.5 4.5H14l-3.5 2.5 1.5 4.5L8 11l-4 2.5 1.5-4.5L2 6.5h4.5z"/></svg>
+            <span class="mini-stat-label">INTERVIEW READINESS:</span>
+            <span class="mini-stat-value" id="stat-readiness-val">0%</span>
+          </div>
+        </div>
       </section>
 
-      <!-- Search & Filters Toolbar -->
-      <section class="toolbar card">
-        <div class="filter-search">
-          <input type="text" id="question-search" placeholder="Search questions by title or topic..." autocomplete="off">
-        </div>
-        
-        <div class="filter-controls">
+      <!-- ── Filter Row (inline, no card) ── -->
+      <div class="filter-row">
+        <div class="filter-left">
           <div class="difficulty-filters" id="difficulty-filters">
             <button class="filter-btn active" data-difficulty="all">All</button>
             <button class="filter-btn easy" data-difficulty="easy">Easy</button>
             <button class="filter-btn medium" data-difficulty="medium">Medium</button>
             <button class="filter-btn hard" data-difficulty="hard">Hard</button>
           </div>
-
+        </div>
+        <div class="filter-right">
+          <div class="filter-search-wrap">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="question-search" placeholder="Search…" autocomplete="off">
+          </div>
           <div class="sort-selector">
             <label for="sort-select">Sort by</label>
             <select id="sort-select">
-              <option value="frequency">Frequency (High to Low)</option>
-              <option value="acceptance">Acceptance Rate</option>
-              <option value="title">Alphabetical</option>
-              <option value="index">Default Order</option>
+              <option value="frequency">Frequency ↓</option>
+              <option value="acceptance">Acceptance</option>
+              <option value="title">A → Z</option>
+              <option value="index">Default</option>
             </select>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!-- Questions List Table -->
+
+      <!-- ── Questions Table ── -->
       <section class="questions-card card">
         <div class="table-header">
           <div class="col-num">#</div>
-          <div class="col-status">Status</div>
-          <div class="col-title">Question Title</div>
-          <div class="col-difficulty">Difficulty</div>
-          <div class="col-acceptance">Acceptance</div>
-          <div class="col-frequency">Frequency</div>
+          <div class="col-status">DONE</div>
+          <div class="col-title">QUESTION</div>
+          <div class="col-difficulty">DIFFICULTY</div>
+          <div class="col-acceptance">ACCEPTANCE</div>
+          <div class="col-frequency">FREQUENCY</div>
         </div>
         <div class="questions-list" id="questions-list">
-          <div class="loading-state">Please select a company from the sidebar to begin tracking.</div>
+          <div class="loading-state">Select a company from the sidebar →</div>
         </div>
       </section>
 
-      <!-- Global Settings / Footer -->
-      <footer class="app-footer">
-        <p>Progress is saved automatically to local storage.</p>
-        <button class="reset-btn" id="reset-global-btn">Reset All Progress</button>
+      <footer class="app-footer-caption">
+        <p>Progress synced automatically · Supabase Cloud · All time data</p>
       </footer>
-    </main>
-  </div>
 
-  <!-- Authentication Overlay Modal -->
-  <div class="auth-overlay" id="auth-overlay">
-    <div class="auth-card">
-      <div class="auth-header">
-        <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" class="auth-logo-icon">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <h2>LeetCode Tracker</h2>
-        <p id="auth-subtitle">Log in to sync your progress across devices</p>
+    </div><!-- /.content-scroll -->
+  </main>
+</div>
+
+<!-- ===================== AUTH OVERLAY ===================== -->
+<div class="auth-overlay" id="auth-overlay">
+  <div class="auth-card">
+    <div class="auth-header">
+      <svg viewBox="0 0 24 24" width="32" height="32" stroke="var(--accent)" stroke-width="2" fill="none" class="auth-logo-icon">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <h2>LC Tracker</h2>
+      <p id="auth-subtitle">Log in to sync your progress across devices</p>
+    </div>
+    <div class="auth-error-box" id="auth-error-box" style="display:none;"></div>
+    <form id="login-form">
+      <div class="form-group"><label for="login-username">Username</label>
+        <input type="text" id="login-username" placeholder="Enter username" required autocomplete="username"></div>
+      <div class="form-group"><label for="login-password">Password</label>
+        <input type="password" id="login-password" placeholder="Enter password" required autocomplete="current-password"></div>
+      <button type="submit" class="auth-btn">Log In</button>
+      <div class="auth-footer-links">
+        <a href="#" id="to-forgot-btn">Forgot Password?</a><span>·</span>
+        <a href="#" id="to-signup-btn">Create Account</a>
       </div>
+    </form>
+    <form id="signup-form" style="display:none;">
+      <div class="form-group"><label for="signup-username">Username</label>
+        <input type="text" id="signup-username" placeholder="Choose a username" required autocomplete="username"></div>
+      <div class="form-group"><label for="signup-password">Password</label>
+        <input type="password" id="signup-password" placeholder="Create a password" required autocomplete="new-password"></div>
+      <div class="form-group"><label for="signup-phone">Phone (For Password Reset)</label>
+        <input type="tel" id="signup-phone" placeholder="e.g. 1234567890" required autocomplete="tel"></div>
+      <button type="submit" class="auth-btn">Create Account</button>
+      <div class="auth-footer-links"><a href="#" class="to-login-btn">Already have an account? Log In</a></div>
+    </form>
+    <form id="forgot-form" style="display:none;">
+      <div class="form-group"><label for="forgot-username">Username</label>
+        <input type="text" id="forgot-username" placeholder="Enter username" required autocomplete="username"></div>
+      <div class="form-group"><label for="forgot-phone">Registered Phone</label>
+        <input type="tel" id="forgot-phone" placeholder="Enter phone number" required autocomplete="tel"></div>
+      <div class="form-group"><label for="forgot-new-password">New Password</label>
+        <input type="password" id="forgot-new-password" placeholder="Create new password" required autocomplete="new-password"></div>
+      <button type="submit" class="auth-btn">Reset Password</button>
+      <div class="auth-footer-links"><a href="#" class="to-login-btn">← Back to Login</a></div>
+    </form>
+  </div>
+</div>
 
-      <!-- General Error Display -->
-      <div class="auth-error-box" id="auth-error-box" style="display: none;"></div>
-
-      <!-- 1. LOGIN FORM -->
-      <form id="login-form">
-        <div class="form-group">
-          <label for="login-username">Username</label>
-          <input type="text" id="login-username" placeholder="Enter username" required autocomplete="username">
-        </div>
-        <div class="form-group">
-          <label for="login-password">Password</label>
-          <input type="password" id="login-password" placeholder="Enter password" required autocomplete="current-password">
-        </div>
-        <button type="submit" class="auth-btn">Log In</button>
-        <div class="auth-footer-links">
-          <a href="#" id="to-forgot-btn">Forgot Password?</a>
-          <span>•</span>
-          <a href="#" id="to-signup-btn">Create Account</a>
-        </div>
-      </form>
-
-      <!-- 2. SIGNUP FORM -->
-      <form id="signup-form" style="display: none;">
-        <div class="form-group">
-          <label for="signup-username">Username</label>
-          <input type="text" id="signup-username" placeholder="Choose a username" required autocomplete="username">
-        </div>
-        <div class="form-group">
-          <label for="signup-password">Password</label>
-          <input type="password" id="signup-password" placeholder="Create a password" required autocomplete="new-password">
-        </div>
-        <div class="form-group">
-          <label for="signup-phone">Phone Number (For Password Reset)</label>
-          <input type="tel" id="signup-phone" placeholder="e.g. 1234567890" required autocomplete="tel">
-        </div>
-        <button type="submit" class="auth-btn">Sign Up</button>
-        <div class="auth-footer-links">
-          <a href="#" class="to-login-btn">Already have an account? Log In</a>
-        </div>
-      </form>
-
-      <!-- 3. FORGOT PASSWORD (RESET) FORM -->
-      <form id="forgot-form" style="display: none;">
-        <div class="form-group">
-          <label for="forgot-username">Username</label>
-          <input type="text" id="forgot-username" placeholder="Enter username" required autocomplete="username">
-        </div>
-        <div class="form-group">
-          <label for="forgot-phone">Registered Phone Number</label>
-          <input type="tel" id="forgot-phone" placeholder="Enter phone number" required autocomplete="tel">
-        </div>
-        <div class="form-group">
-          <label for="forgot-new-password">New Password</label>
-          <input type="password" id="forgot-new-password" placeholder="Create new password" required autocomplete="new-password">
-        </div>
-        <button type="submit" class="auth-btn">Reset Password</button>
-        <div class="auth-footer-links">
-          <a href="#" class="to-login-btn">Back to Login</a>
-        </div>
-      </form>
+<!-- ===================== PROFILE DRAWER ===================== -->
+<div class="drawer-overlay" id="drawer-overlay"></div>
+<div class="profile-drawer" id="profile-drawer">
+  <div class="drawer-header">
+    <h3>Settings</h3>
+    <button class="close-drawer-btn" id="close-drawer-btn" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body">
+    <div class="drawer-profile-info">
+      <div class="drawer-avatar">👤</div>
+      <h4 id="drawer-username-display">Guest</h4>
+      <span class="drawer-user-role">Developer</span>
+    </div>
+    <div class="drawer-settings-list">
+      <div class="setting-item">
+        <span class="setting-label">Theme Mode</span>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+          <span id="theme-mode-text">Dark Mode</span>
+          <div class="theme-icons-container">
+            <svg class="moon-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <svg class="sun-icon" viewBox="0 0 24 24" width="16" height="16" style="display:none;"><circle cx="12" cy="12" r="5" fill="currentColor"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+        </button>
+      </div>
+      <div class="setting-item danger-zone">
+        <span class="setting-label">Danger Zone</span>
+        <button class="reset-btn" id="reset-global-btn">Reset All Progress</button>
+      </div>
     </div>
   </div>
+  <div class="drawer-footer">
+    <button class="logout-btn" id="logout-btn">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+      <span>Log Out</span>
+    </button>
+  </div>
+</div>
 
-  <!-- Main JavaScript File -->
-  <script src="app.js"></script>
+<!-- hidden elem for backward compat -->
+<span id="progress-text" style="display:none;"></span>
+
+<script src="app.js"></script>
 </body>
 </html>

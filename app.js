@@ -2,7 +2,7 @@
 let state = {
   companies: [],
   selectedCompany: null,
-  selectedFileKey: 'thirty_days', // default
+  selectedFileKey: 'all', // default
   questions: [],
   filters: {
     search: '',
@@ -15,33 +15,18 @@ let state = {
   solvedSet: new Set() // Set of solved question links
 };
 
-// --- Timeframe Mapping & Configurations ---
-const TIMEFRAME_LABELS = {
-  thirty_days: '30 Days',
-  three_months: '3 Months',
-  six_months: '6 Months',
-  more_than_six_months: '6+ Months',
-  all: 'All Time'
-};
-
-const TIMEFRAME_ORDER = ['thirty_days', 'three_months', 'six_months', 'more_than_six_months', 'all'];
-
-// Helper to get first available timeframe based on sorted order
-function getFirstAvailableTimeframe(company) {
-  for (const key of TIMEFRAME_ORDER) {
-    if (company.files[key]) {
-      return key;
-    }
-  }
-  return Object.keys(company.files)[0];
-}
-
 // SVG Circle circumference config: 2 * PI * r (r=34) = ~213.6
 const CIRCUMFERENCE = 213.628;
 
 // --- DOM Element References ---
 const sidebar = document.getElementById('sidebar');
 const menuToggle = document.getElementById('menu-toggle');
+
+// Drawer elements
+const drawerOverlay = document.getElementById('drawer-overlay');
+const profileDrawer = document.getElementById('profile-drawer');
+const closeDrawerBtn = document.getElementById('close-drawer-btn');
+const drawerUsernameDisplay = document.getElementById('drawer-username-display');
 const themeToggle = document.getElementById('theme-toggle');
 const moonIcon = document.querySelector('.moon-icon');
 const sunIcon = document.querySelector('.sun-icon');
@@ -51,7 +36,6 @@ const companyList = document.getElementById('company-list');
 const companyCount = document.getElementById('company-count');
 
 const activeCompanyName = document.getElementById('active-company-name');
-const timeframeTabs = document.getElementById('timeframe-tabs');
 const progressText = document.getElementById('progress-text');
 const progressPercent = document.getElementById('progress-percent');
 const progressBar = document.querySelector('.progress-bar');
@@ -153,6 +137,9 @@ async function apiRequest(url, method = 'GET', body = null) {
   const data = await response.json();
 
   if (!response.ok) {
+    if (response.status === 401) {
+      handleLogoutLocal();
+    }
     throw new Error(data.error || 'API Request failed');
   }
   return data;
@@ -253,14 +240,7 @@ function loginUser(username, token) {
   });
 }
 
-async function handleLogout() {
-  try {
-    await apiRequest('/api/auth/logout', 'POST');
-  } catch (err) {
-    console.error('Logout request failed:', err);
-  }
-  
-  // Clear state & storage
+function handleLogoutLocal() {
   state.user = null;
   state.solvedSet.clear();
   localStorage.removeItem('lc_auth_token');
@@ -269,10 +249,40 @@ async function handleLogout() {
   // Hide profile
   userProfile.style.display = 'none';
   
+  // Close drawer if open
+  closeDrawer();
+  
   // Reset UI list and display login
   questionsList.innerHTML = `<div class="loading-state">Please log in to begin tracking.</div>`;
   showAuthScreen('login');
 }
+
+async function handleLogout() {
+  try {
+    await apiRequest('/api/auth/logout', 'POST');
+  } catch (err) {
+    console.error('Logout request failed:', err);
+  }
+  handleLogoutLocal();
+}
+
+// --- Settings Drawer UI Control ---
+function openDrawer() {
+  if (state.user) {
+    drawerUsernameDisplay.textContent = state.user.username;
+  }
+  drawerOverlay.classList.add('open');
+  profileDrawer.classList.add('open');
+}
+
+function closeDrawer() {
+  drawerOverlay.classList.remove('open');
+  profileDrawer.classList.remove('open');
+}
+
+userProfile.addEventListener('click', openDrawer);
+closeDrawerBtn.addEventListener('click', closeDrawer);
+drawerOverlay.addEventListener('click', closeDrawer);
 
 async function syncUserProgress() {
   try {
@@ -298,34 +308,42 @@ toLoginBtns.forEach(btn => {
 // --- Core Logic: Theme Toggle ---
 function initTheme() {
   const savedTheme = localStorage.getItem('lc_theme') || 'dark';
+  const themeModeText = document.getElementById('theme-mode-text');
   if (savedTheme === 'light') {
     document.body.classList.remove('dark-theme');
     document.body.classList.add('light-theme');
     moonIcon.style.display = 'none';
     sunIcon.style.display = 'block';
+    if (themeModeText) themeModeText.textContent = 'Light Mode';
   } else {
     document.body.classList.add('dark-theme');
     document.body.classList.remove('light-theme');
     moonIcon.style.display = 'block';
     sunIcon.style.display = 'none';
+    if (themeModeText) themeModeText.textContent = 'Dark Mode';
   }
 }
 
 themeToggle.addEventListener('click', () => {
   const isDark = document.body.classList.contains('dark-theme');
+  const themeModeText = document.getElementById('theme-mode-text');
   if (isDark) {
     document.body.classList.remove('dark-theme');
     document.body.classList.add('light-theme');
     localStorage.setItem('lc_theme', 'light');
     moonIcon.style.display = 'none';
     sunIcon.style.display = 'block';
+    if (themeModeText) themeModeText.textContent = 'Light Mode';
   } else {
     document.body.classList.add('dark-theme');
     document.body.classList.remove('light-theme');
     localStorage.setItem('lc_theme', 'dark');
     moonIcon.style.display = 'block';
     sunIcon.style.display = 'none';
+    if (themeModeText) themeModeText.textContent = 'Dark Mode';
   }
+  // Re-render chart with correct theme colors
+  setTimeout(refreshChartTheme, 50);
 });
 
 // --- Core Logic: Mobile Sidebar Toggle ---
@@ -354,14 +372,29 @@ async function fetchMetadata() {
     const initialCompany = state.companies.find(c => c.name === savedCompany) || state.companies[0];
     
     if (initialCompany) {
-      const savedTimeframe = localStorage.getItem('lc_selected_timeframe');
-      const initialTimeframe = (savedTimeframe && initialCompany.files[savedTimeframe]) ? savedTimeframe : getFirstAvailableTimeframe(initialCompany);
-      selectCompany(initialCompany, initialTimeframe);
+      selectCompany(initialCompany);
     }
   } catch (error) {
     console.error('Error fetching metadata:', error);
     companyList.innerHTML = `<div class="loading-state" style="color: var(--hard-color)">Failed to load companies list. Please make sure the server.py is running.</div>`;
   }
+}
+
+// --- Colored Avatar Helper ---
+const AVATAR_PALETTE = [
+  { bg: 'rgba(239,68,68,0.18)',   color: '#EF4444' },
+  { bg: 'rgba(249,115,22,0.18)',  color: '#F97316' },
+  { bg: 'rgba(234,179,8,0.18)',   color: '#EAB308' },
+  { bg: 'rgba(34,197,94,0.18)',   color: '#22C55E' },
+  { bg: 'rgba(6,182,212,0.18)',   color: '#06B6D4' },
+  { bg: 'rgba(99,102,241,0.18)',  color: '#6366F1' },
+  { bg: 'rgba(168,85,247,0.18)',  color: '#A855F7' },
+  { bg: 'rgba(236,72,153,0.18)', color: '#EC4899' },
+];
+
+function getAvatarStyle(name) {
+  const idx = name.charCodeAt(0) % AVATAR_PALETTE.length;
+  return AVATAR_PALETTE[idx];
 }
 
 // --- Core Logic: Render Company List in Sidebar ---
@@ -387,20 +420,17 @@ function renderCompanyList() {
       item.classList.add('active');
     }
     
-    // Count total files/categories available
-    const filesCount = Object.keys(company.files).length;
-    
+    const av = getAvatarStyle(company.name);
     item.innerHTML = `
+      <div class="company-letter-avatar" style="background:${av.bg};color:${av.color}">${company.name.charAt(0).toUpperCase()}</div>
       <span class="company-name">${company.name}</span>
-      <span class="badge">${filesCount}</span>
     `;
     
     item.addEventListener('click', () => {
       if (window.innerWidth <= 1024) {
         sidebar.classList.remove('open');
       }
-      const nextTimeframe = company.files[state.selectedFileKey] ? state.selectedFileKey : getFirstAvailableTimeframe(company);
-      selectCompany(company, nextTimeframe);
+      selectCompany(company);
     });
     
     companyList.appendChild(item);
@@ -410,9 +440,8 @@ function renderCompanyList() {
 companySearch.addEventListener('input', renderCompanyList);
 
 // --- Core Logic: Select Company & Fetch CSV ---
-async function selectCompany(company, fileKey) {
+async function selectCompany(company) {
   state.selectedCompany = company;
-  state.selectedFileKey = fileKey;
   
   // Highlight active company in sidebar
   document.querySelectorAll('.company-item').forEach(item => {
@@ -426,41 +455,13 @@ async function selectCompany(company, fileKey) {
   
   // Save selection
   localStorage.setItem('lc_selected_company', company.name);
-  localStorage.setItem('lc_selected_timeframe', fileKey);
   
   activeCompanyName.textContent = company.name;
   
-  // Render timeframe selector tabs
-  renderTimeframeTabs(company);
-  
-  // Load questions CSV
+  // Load questions CSV (always use the 'all' key, fallback to first available if not found)
+  const fileKey = company.files['all'] ? 'all' : Object.keys(company.files)[0];
+  state.selectedFileKey = fileKey;
   await loadQuestionsData(company, fileKey);
-}
-
-function renderTimeframeTabs(company) {
-  timeframeTabs.innerHTML = '';
-  
-  // Sort the keys based on the desired TIMEFRAME_ORDER
-  const sortedKeys = Object.keys(company.files).sort((a, b) => {
-    let indexA = TIMEFRAME_ORDER.indexOf(a);
-    let indexB = TIMEFRAME_ORDER.indexOf(b);
-    if (indexA === -1) indexA = 999;
-    if (indexB === -1) indexB = 999;
-    return indexA - indexB;
-  });
-
-  sortedKeys.forEach(key => {
-    const btn = document.createElement('button');
-    btn.className = 'tab-btn';
-    if (key === state.selectedFileKey) {
-      btn.classList.add('active');
-    }
-    btn.textContent = TIMEFRAME_LABELS[key] || key;
-    btn.addEventListener('click', () => {
-      selectCompany(company, key);
-    });
-    timeframeTabs.appendChild(btn);
-  });
 }
 
 async function loadQuestionsData(company, fileKey) {
@@ -527,28 +528,35 @@ async function loadQuestionsData(company, fileKey) {
 
 // --- Core Logic: Update Progress Circular Bar ---
 function updateProgress() {
+  const heroSolvedNum = document.getElementById('hero-solved-num');
+  const heroTotalNum  = document.getElementById('hero-total-num');
+
   if (state.questions.length === 0) {
-    progressText.textContent = '0 / 0 Solved';
+    if (heroSolvedNum) heroSolvedNum.textContent = '0';
+    if (heroTotalNum)  heroTotalNum.textContent  = '0';
+    if (progressText)  progressText.textContent  = '0 / 0 Solved';
     progressPercent.textContent = '0%';
     progressBar.style.strokeDashoffset = CIRCUMFERENCE;
     return;
   }
-  
+
   let solvedCount = 0;
-  state.questions.forEach(q => {
-    if (state.solvedSet.has(q.link)) {
-      solvedCount++;
-    }
-  });
-  
-  const total = state.questions.length;
+  state.questions.forEach(q => { if (state.solvedSet.has(q.link)) solvedCount++; });
+
+  const total   = state.questions.length;
   const percent = Math.round((solvedCount / total) * 100);
-  
-  progressText.textContent = `${solvedCount} / ${total} Solved`;
+
+  if (heroSolvedNum) heroSolvedNum.textContent = solvedCount;
+  if (heroTotalNum)  heroTotalNum.textContent  = total;
+  if (progressText)  progressText.textContent  = `${solvedCount} / ${total} Solved`;
   progressPercent.textContent = `${percent}%`;
-  
+
   const offset = CIRCUMFERENCE - (percent / 100) * CIRCUMFERENCE;
   progressBar.style.strokeDashoffset = offset;
+
+  // Update analytics
+  updateStatCards();
+  updateCharts();
 }
 
 // --- Core Logic: Search, Filters, and Sorting ---
@@ -641,11 +649,7 @@ function renderQuestionsList(questions) {
         <span class="diff-badge ${q.difficulty.toLowerCase()}">${q.difficulty.toLowerCase()}</span>
       </div>
       <div class="col-acceptance acceptance-rate">${q.acceptance}</div>
-      <div class="col-frequency freq-container">
-        <div class="freq-track" title="Frequency: ${q.frequency.toFixed(1)}%">
-          <div class="freq-fill" style="width: ${Math.min(q.frequency, 100)}%"></div>
-        </div>
-      </div>
+      <div class="col-frequency freq-val">${q.frequency.toFixed(1)}%</div>
     `;
     
     const checkbox = row.querySelector('.custom-checkbox');
@@ -673,6 +677,9 @@ async function toggleQuestionCompletion(question, rowElement, checkboxElement) {
     checkboxElement.setAttribute('aria-checked', 'false');
   }
   updateProgress();
+
+  // Track solve event for heatmap when marking as solved
+  if (newStatus) { trackSolveEvent(); }
 
   // Send update to server database
   try {
@@ -731,4 +738,258 @@ document.addEventListener('DOMContentLoaded', () => {
     // Show login modal immediately
     showAuthScreen('login');
   }
+
+  // Always render heatmap on load (works without login)
+  renderHeatmap();
+  updateStreaks();
 });
+
+// ============================================================
+// ANALYTICS MODULE
+// ============================================================
+
+// --- Stat Cards ---
+function updateStatCards() {
+  if (!state.questions || state.questions.length === 0) {
+    ['stat-solved-val', 'stat-remaining-val', 'stat-completion-val', 'stat-readiness-val']
+      .forEach(id => { const el = document.getElementById(id); if (el) el.textContent = id.includes('val') ? '0' : '0%'; });
+    return;
+  }
+
+  let solved = 0;
+  state.questions.forEach(q => { if (state.solvedSet.has(q.link)) solved++; });
+
+  const total = state.questions.length;
+  const remaining = total - solved;
+  const percent = total > 0 ? Math.round((solved / total) * 100) : 0;
+
+  // Interview readiness: weighted by difficulty
+  const easySolved   = state.questions.filter(q => q.difficulty === 'EASY'   && state.solvedSet.has(q.link)).length;
+  const mediumSolved = state.questions.filter(q => q.difficulty === 'MEDIUM' && state.solvedSet.has(q.link)).length;
+  const hardSolved   = state.questions.filter(q => q.difficulty === 'HARD'   && state.solvedSet.has(q.link)).length;
+  const easyTotal    = state.questions.filter(q => q.difficulty === 'EASY').length;
+  const mediumTotal  = state.questions.filter(q => q.difficulty === 'MEDIUM').length;
+  const hardTotal    = state.questions.filter(q => q.difficulty === 'HARD').length;
+
+  const easyScore   = easyTotal   > 0 ? (easySolved   / easyTotal)   * 0.20 : 0;
+  const mediumScore = mediumTotal > 0 ? (mediumSolved / mediumTotal) * 0.50 : 0;
+  const hardScore   = hardTotal   > 0 ? (hardSolved   / hardTotal)   * 0.30 : 0;
+  const readiness = Math.round((easyScore + mediumScore + hardScore) * 100);
+
+  animateValue('stat-solved-val',     solved);
+  animateValue('stat-remaining-val',  remaining);
+  setStatText('stat-completion-val',  percent + '%');
+  setStatText('stat-readiness-val',   readiness + '%');
+}
+
+function animateValue(id, target) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const start = parseInt(el.textContent) || 0;
+  if (start === target) return;
+  const duration = 400;
+  const startTime = performance.now();
+  function tick(now) {
+    const progress = Math.min((now - startTime) / duration, 1);
+    el.textContent = Math.round(start + (target - start) * progress);
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+function setStatText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = value;
+}
+
+// --- Difficulty Doughnut Chart ---
+let difficultyChart = null;
+
+function updateCharts() {
+  if (!state.questions || state.questions.length === 0) return;
+  if (typeof Chart === 'undefined') return;
+
+  const easyCount   = state.questions.filter(q => q.difficulty === 'EASY').length;
+  const mediumCount = state.questions.filter(q => q.difficulty === 'MEDIUM').length;
+  const hardCount   = state.questions.filter(q => q.difficulty === 'HARD').length;
+
+  const ctx = document.getElementById('difficulty-chart');
+  if (!ctx) return;
+
+  const isDark = document.body.classList.contains('dark-theme');
+  const textColor = isDark ? '#94A3B8' : '#64748B';
+  const gridColor = isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)';
+
+  if (difficultyChart) {
+    difficultyChart.data.datasets[0].data = [easyCount, mediumCount, hardCount];
+    difficultyChart.options.plugins.legend.labels.color = textColor;
+    difficultyChart.update('active');
+    return;
+  }
+
+  difficultyChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['Easy', 'Medium', 'Hard'],
+      datasets: [{
+        data: [easyCount, mediumCount, hardCount],
+        backgroundColor: isDark
+          ? ['rgba(34,197,94,0.75)', 'rgba(245,158,11,0.75)', 'rgba(239,68,68,0.75)']
+          : ['#DCFCE7', '#FEF3C7', '#FEE2E2'],
+        borderColor: ['#22C55E', '#F59E0B', '#EF4444'],
+        borderWidth: 2,
+        hoverOffset: 6,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      cutout: '68%',
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            color: textColor,
+            font: { family: 'Inter', size: 11, weight: '500' },
+            padding: 14,
+            boxWidth: 10,
+            usePointStyle: true,
+            pointStyle: 'circle',
+          }
+        },
+        tooltip: {
+          backgroundColor: isDark ? '#1E293B' : '#fff',
+          titleColor: isDark ? '#F8FAFC' : '#0F172A',
+          bodyColor: isDark ? '#94A3B8' : '#64748B',
+          borderColor: isDark ? '#334155' : '#E2E8F0',
+          borderWidth: 1,
+          padding: 10,
+          cornerRadius: 8,
+          callbacks: {
+            label: (ctx) => `  ${ctx.label}: ${ctx.raw} problems`
+          }
+        }
+      }
+    }
+  });
+}
+
+// Call updateCharts again after theme changes
+function refreshChartTheme() {
+  if (difficultyChart) {
+    difficultyChart.destroy();
+    difficultyChart = null;
+    updateCharts();
+  }
+}
+
+// --- Activity Heatmap ---
+function trackSolveEvent() {
+  const today = new Date().toISOString().split('T')[0];
+  const raw = localStorage.getItem('lc_solve_dates') || '{}';
+  const dates = JSON.parse(raw);
+  dates[today] = (dates[today] || 0) + 1;
+  localStorage.setItem('lc_solve_dates', JSON.stringify(dates));
+  renderHeatmap();
+  updateStreaks();
+}
+
+function renderHeatmap() {
+  const container = document.getElementById('heatmap-container');
+  if (!container) return;
+
+  const raw = localStorage.getItem('lc_solve_dates') || '{}';
+  const dates = JSON.parse(raw);
+
+  const today = new Date();
+  // Go back 52 weeks from today
+  const start = new Date(today);
+  start.setDate(today.getDate() - 363);
+  // Align to Sunday
+  start.setDate(start.getDate() - start.getDay());
+
+  const weeks = [];
+  let current = new Date(start);
+
+  while (current <= today) {
+    const week = [];
+    for (let d = 0; d < 7; d++) {
+      const dateStr = current.toISOString().split('T')[0];
+      const count = dates[dateStr] || 0;
+      let level = 0;
+      if (count === 1) level = 1;
+      else if (count === 2) level = 2;
+      else if (count <= 4) level = 3;
+      else if (count > 4) level = 4;
+      week.push({ date: dateStr, count, level, future: current > today });
+      current.setDate(current.getDate() + 1);
+    }
+    weeks.push(week);
+  }
+
+  let html = '<div class="heatmap-grid">';
+  weeks.forEach(week => {
+    html += '<div class="heatmap-week">';
+    week.forEach(({ date, count, level, future }) => {
+      const label = future ? '' : `${date}${count > 0 ? ': ' + count + ' solved' : ''}`;
+      const lvl = future ? 0 : level;
+      html += `<div class="heatmap-cell" data-level="${lvl}" title="${label}"></div>`;
+    });
+    html += '</div>';
+  });
+  html += '</div>';
+
+  container.innerHTML = html;
+}
+
+function updateStreaks() {
+  const raw = localStorage.getItem('lc_solve_dates') || '{}';
+  const dates = Object.keys(JSON.parse(raw)).sort();
+
+  if (dates.length === 0) {
+    setStatText('current-streak', '🔥 0 day streak');
+    setStatText('longest-streak', '🏆 0 best');
+    return;
+  }
+
+  let currentStreak = 0;
+  let longestStreak = 0;
+  let streak = 1;
+
+  // Calculate longest streak
+  for (let i = 1; i < dates.length; i++) {
+    const prev = new Date(dates[i - 1]);
+    const curr = new Date(dates[i]);
+    const diff = (curr - prev) / (1000 * 60 * 60 * 24);
+    if (diff === 1) {
+      streak++;
+    } else {
+      longestStreak = Math.max(longestStreak, streak);
+      streak = 1;
+    }
+  }
+  longestStreak = Math.max(longestStreak, streak);
+
+  // Calculate current streak (from today backwards)
+  const todayStr = new Date().toISOString().split('T')[0];
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yestStr = yesterday.toISOString().split('T')[0];
+
+  if (dates.includes(todayStr) || dates.includes(yestStr)) {
+    currentStreak = 1;
+    let checkDate = new Date(dates.includes(todayStr) ? todayStr : yestStr);
+    for (let i = dates.length - 2; i >= 0; i--) {
+      const prev = new Date(dates[i]);
+      checkDate.setDate(checkDate.getDate() - 1);
+      if (dates[i] === checkDate.toISOString().split('T')[0]) {
+        currentStreak++;
+      } else {
+        break;
+      }
+    }
+  }
+
+  setStatText('current-streak', `🔥 ${currentStreak} day${currentStreak !== 1 ? 's' : ''} streak`);
+  setStatText('longest-streak', `🏆 ${longestStreak} best`);
+}

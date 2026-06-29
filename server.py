@@ -6,7 +6,7 @@ import psycopg2
 import psycopg2.extras
 import hashlib
 import uuid
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 PORT = 8000
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
@@ -182,7 +182,7 @@ class TrackerHandler(http.server.SimpleHTTPRequestHandler):
                 
                 # Generate Session Token
                 token = uuid.uuid4().hex
-                expires_at = datetime.now() + timedelta(days=30)
+                expires_at = datetime.now(timezone.utc) + timedelta(days=30)
                 cursor.execute(
                     "INSERT INTO sessions (token, user_id, expires_at) VALUES (%s, %s, %s)",
                     (token, user_id, expires_at)
@@ -234,7 +234,7 @@ class TrackerHandler(http.server.SimpleHTTPRequestHandler):
                 
                 # Generate Session
                 token = uuid.uuid4().hex
-                expires_at = datetime.now() + timedelta(days=30)
+                expires_at = datetime.now(timezone.utc) + timedelta(days=30)
                 
                 cursor.execute(
                     "INSERT INTO sessions (token, user_id, expires_at) VALUES (%s, %s, %s)",

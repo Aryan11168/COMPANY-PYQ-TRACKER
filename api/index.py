@@ -5,7 +5,7 @@ import psycopg2.extras
 import os
 import hashlib
 import uuid
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 app = Flask(__name__)
 # Enable CORS for all routes (critical for Vercel routing)
@@ -137,7 +137,7 @@ def signup():
         user_id = cursor.fetchone()["id"]
         
         token = uuid.uuid4().hex
-        expires_at = datetime.now() + timedelta(days=30)
+        expires_at = datetime.now(timezone.utc) + timedelta(days=30)
         cursor.execute(
             "INSERT INTO sessions (token, user_id, expires_at) VALUES (%s, %s, %s)",
             (token, user_id, expires_at)
@@ -176,7 +176,7 @@ def login():
             return jsonify({"error": "Invalid username or password"}), 400
         
         token = uuid.uuid4().hex
-        expires_at = datetime.now() + timedelta(days=30)
+        expires_at = datetime.now(timezone.utc) + timedelta(days=30)
         cursor.execute(
             "INSERT INTO sessions (token, user_id, expires_at) VALUES (%s, %s, %s)",
             (token, user_id, expires_at)
