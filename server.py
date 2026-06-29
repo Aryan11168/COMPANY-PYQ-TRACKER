@@ -14,7 +14,7 @@ DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 # --- Supabase Database Configuration ---
 DB_URI = os.environ.get(
     "DATABASE_URL", 
-    "postgresql://postgres:QcC8mYZDOODQ5PkA@db.damddtgyhrteskphtwab.supabase.co:5432/postgres?sslmode=require"
+    "postgresql://postgres.damddtgyhrteskphtwab:QcC8mYZDOODQ5PkA@aws-1-ap-south-1.pooler.supabase.com:6543/postgres?sslmode=require"
 )
 
 # --- Database Initialization ---

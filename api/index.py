@@ -14,7 +14,7 @@ CORS(app)
 # Fallback string is hardcoded but Vercel dashboard environment variable 'DATABASE_URL' is preferred
 DB_URI = os.environ.get(
     "DATABASE_URL", 
-    "postgresql://postgres:QcC8mYZDOODQ5PkA@db.damddtgyhrteskphtwab.supabase.co:5432/postgres?sslmode=require"
+    "postgresql://postgres.damddtgyhrteskphtwab:QcC8mYZDOODQ5PkA@aws-1-ap-south-1.pooler.supabase.com:6543/postgres?sslmode=require"
 )
 
 # Helper to connect to PostgreSQL
