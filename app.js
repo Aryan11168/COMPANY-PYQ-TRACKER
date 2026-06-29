@@ -817,7 +817,7 @@ function updateCharts() {
   if (!ctx) return;
 
   const isDark = document.body.classList.contains('dark-theme');
-  const textColor = isDark ? '#94A3B8' : '#64748B';
+  const textColor = isDark ? '#94A3B8' : '#473198';
   const gridColor = isDark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)';
 
   if (difficultyChart) {
